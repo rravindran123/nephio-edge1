@@ -37,16 +37,16 @@ status:
   - type: ipam.nephio.org.IPAMAllocation.upf-edge1-n6.upf.Injected
     status: "False"
     reason: ErrorDuringInjection
-    message: 'cannot allocate ip: rpc error: code = Unknown desc = ipam ni not ready or network-instance upf-edge1-internet not correct'
+    message: 'cannot allocate ip: rpc error: code = Unknown desc = no available routes based on the label selector: nephio.org/network-instance in (sample-vpc)'
   - type: ipam.nephio.org.IPAMAllocation.upf-edge1-n3.upf.Injected
     status: "False"
     reason: ErrorDuringInjection
-    message: 'cannot allocate ip: rpc error: code = Unknown desc = ipam ni not ready or network-instance upf-edge1-internet not correct'
+    message: 'cannot allocate ip: rpc error: code = Unknown desc = no available routes based on the label selector: nephio.org/network-instance in (sample-vpc)'
   - type: ipam.nephio.org.IPAMAllocation.upf-edge1-n4.upf.Injected
     status: "False"
     reason: ErrorDuringInjection
-    message: 'cannot allocate ip: rpc error: code = Unknown desc = ipam ni not ready or network-instance upf-edge1-internet not correct'
+    message: 'cannot allocate ip: rpc error: code = Unknown desc = no available routes based on the label selector: nephio.org/network-instance in (sample-vpc)'
   - type: ipam.nephio.org.IPAMAllocation.upf-edge1-internet.upf.Injected
     status: "False"
     reason: ErrorDuringInjection
-    message: 'cannot allocate ip: rpc error: code = Unknown desc = ipam ni not ready or network-instance upf-edge1-internet not correct'
+    message: 'cannot allocate ip: rpc error: code = Unknown desc = no available routes based on the label selector: nephio.org/network-instance in (sample-vpc)'
